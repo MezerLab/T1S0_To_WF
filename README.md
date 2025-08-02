@@ -9,16 +9,15 @@ The repository includes:
 - WF calculation
 
 
-% Requirements:
-All required maps and masks must be pre-aligned and in the same spatial space.
 
-% Dependencies:
+## Dependencies:
 The script uses functions and tools from the following repositories (linked in the README):
- - mrQ
- - MP2RAGE-related-scripts
- - S0_to_PD
-   
-% Please ensure that these repositories are installed and added to your MATLAB path.
+ - mrQ - https://github.com/mezera/mrQ/tree/master
+ - MP2RAGE-related-scripts - https://github.com/JosePMarques/MP2RAGE-related-scripts/tree/master
+ - Vistasoft - https://github.com/vistalab/vistasoft
+ - SPM8 - https://github.com/spm/spm8
+
+Please ensure that these repositories are installed and added to your MATLAB path.
 
 
 (*Add citation once the paper will be published)
