@@ -2,13 +2,15 @@
 
 This repository contains the analysis pipeline and relevant scripts used in the study: "Mapping a Reproducible Water Fraction and T1 using MP2RAGE and Variable Flip Angle Quantitative MRI Protocols*".
 
-The pipeline estimates the water fraction (WF) maps from quantitative MRI (qMRI) data, using two acquisition protocols estimating T1 - VFA and MP2RAGE.
+
+## Overview:
+The pipeline estimates Water Fraction (WF) maps from quantitative MRI (qMRI) data, using two acquisition protocols for T1 mapping - Variable Flip Angle (VFA) and MP2RAGE.
 
 The repository includes:
-- Scripts for T1 and S0 map estimation
-- PD estimation
-- WF calculation
-
+- T1S0_to_WF.m - an exmaple script demonstrating the full pipeline
+- Reporisoties of T1 and S0 estimation for both VFA and MP2RAGE
+- PD estimation functions
+- calibratePDmap.m - WF calculation function 
 
 
 ## Dependencies:
