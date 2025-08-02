@@ -24,9 +24,6 @@ function opt_Log_name=buildPD(opt_Log_name,RepErrThreshold,PrcCutOff,ErrorThresh
 %             --> mrQ_BoxJoinBox.m 
 %     Step 4: Smoothe the gain values and re-calculate the PD. 
 %             --> mrQ_smoothGain_step4b.m 
-%     Step 5: Scale the PD CSF value to 1 to calculate the WF. This step 
-%             uses the segmentation files csffile and segfile (inputs).
-%             --> mrQ_PD2WF_step5.m
 %
 %
 %   ~INPUTS~
@@ -150,8 +147,4 @@ tmpfile=fullfile(opt.outDir,'Boxtmp');
 %% VI. Step 4
 % Get a smooth coil sensitivity in all locations, bring back to original image space, and calculate PD
 [opt]=M0toPD_smoothGain_step4(opt,PD_fit); 
-
-%% V. Step 5
-% normalize the PD map to the CSF to get WF map
-[opt]=M0toPD_CSFnorm(opt);
 
