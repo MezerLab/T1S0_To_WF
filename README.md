@@ -14,13 +14,11 @@ The repository includes:
 
 
 ## Dependencies:
-The script uses functions and tools from the following repositories (linked in the README):
+The scripts rely on functions and tools from the following repositories (make sure they are installed and added to your MATLAB path):
  - mrQ - https://github.com/mezera/mrQ/tree/master
  - MP2RAGE-related-scripts - https://github.com/JosePMarques/MP2RAGE-related-scripts/tree/master
  - Vistasoft - https://github.com/vistalab/vistasoft
  - SPM8 - https://github.com/spm/spm8
-
-Please ensure that these repositories are installed and added to your MATLAB path.
 
 
 (*Add citation once the paper will be published)
