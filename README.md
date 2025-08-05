@@ -12,6 +12,11 @@ The repository includes:
 - PD estimation functions
 - calibratePDmap.m - WF calculation function 
 
+## Example Data:
+- T1 and S0 maps
+- Brain mask
+- Segmentation
+- Expected WF and CSF segmentation (from WF calculation function)
 
 ## Dependencies:
 The scripts rely on functions and tools from the following repositories (make sure they are installed and added to your MATLAB path):
